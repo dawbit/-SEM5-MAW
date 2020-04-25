@@ -1,0 +1,128 @@
+body {
+  background-color: #599c3f;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  position: center;
+  margin: 0 auto;
+  display: block;
+}
+
+header > nav {
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  flex: 0%;
+}
+
+header > nav > ul {
+  text-align: center;
+}
+
+header > img {
+  width: 200px;
+  height: 200px;
+  position: center;
+  margin: 0 auto;
+  display: block;
+}
+
+ul > li {
+  float: top;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+nav {
+  float: left;
+  width: 35%;
+}
+
+nav img {
+  width: 90%;
+}
+
+nav {
+  text-align: center;
+}
+
+footer {
+  background-color: #333333;
+  clear: both;
+  text-align: center;
+  position: center;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+}
+
+footer > a {
+  color: white;
+}
+
+footer > b {
+  color: white;
+}
+
+footer a:hover {
+  background-color: #111111;
+}
+
+article {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 50px;
+}
+
+article > table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #555555;
+  background-color: #555555;
+  width: 400px;
+  height: 240px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+article > table td,
+table th {
+  border: 1px solid #555555;
+  padding: 5px 5px;
+}
+
+article > table tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+article > table td:nth-child(even) {
+  background: #398aa4;
+}
+
+article > h2,
+h4 {
+  text-align: center;
+}

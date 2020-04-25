@@ -1,0 +1,64 @@
+main section.canvas {
+  position: relative;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 400px;
+  max-height: 800px;
+  background-color: paleturquoise;
+}
+
+@media screen and (max-height: 499px), (max-width: 299px) {
+  main section.canvas {
+    display: none;
+  }
+}
+
+.object {
+  position: absolute;
+}
+
+.circle {
+  top: auto;
+  bottom: 10px;
+  left: auto;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  border-radius: 40px;
+}
+
+.square {
+  top: 10px;
+  bottom: auto;
+  left: auto;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: burlywood;
+}
+
+.square45 {
+  top: 20px;
+  bottom: auto;
+  left: 20px;
+  right: auto;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  background-color: orangered;
+}
+
+.triangle {
+  top: auto;
+  bottom: 10px;
+  left: 10px;
+  right: auto;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-top: 0;
+  border-bottom: 50px solid yellowgreen;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
